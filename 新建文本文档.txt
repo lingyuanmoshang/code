@@ -1,0 +1,2 @@
+/*css-background-end*/
+body{pointer-events:auto !important;background-size:100% !important;opacity: 0.75 !important;background-position: 0 0 !important;background-image: url('file://C:/Users/wzx/Downloads/miku1.jpg') !important;content:'';position:absolute;z-index:99999;width:100%;background-repeat:no-repeat;}

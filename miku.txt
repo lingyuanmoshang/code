@@ -1,0 +1,89 @@
+/*
+                                                                            .                                                                         
+                                                                                                                                                      
+                                                                       .vr:                                                                           
+                                                                    .7XBX                                                                             
+                                                                  .7dbBi                                                                              
+                                                                 jqSjRi                                                                               
+                                                               :EK1sPY                                                                                
+                                                              rSrJYJP                                                                                 
+                                                               :2JY17     ....:........                                                               
+                                                                .vUIJ .1KEZEPbqqXKKqXqXKIYri.                                                         
+                                                      .r1SEPEPq5jLJJuIK2uLL7v7vvv7v77777Ys15EdK7:                                                     
+                                                   .LPEbI1YYvLvLvL7vvLvL7v7v7v7v7v7v777777r7r7vUKbL.             L1vDj                                
+                                                 rEgKYvr7777v7v7v7v7v7v7v777v777v777v77r7r7r7rrrrrsSSr          gZ5bBP                                
+                                               rPPL7r7r777777777777777777v777777r7r7r7r7r7rrr7rrrrrrr2P1.     .QSjqBBd                                
+                                       .7..  :SIsr7r777r77777r7r7r777r7r777r7r7r7r7r7r7r7r7rrrrrrrrrrrrsZ5   rB1IE7Z2777rr:                           
+                                      .BPQB 75vrrrr7rrr7r7r7r7r7r7r7r7r7r7rrr7rrr7rrrri7rrrrrrrrrrrrrririuP.jQLXDv:.:ir77vJv                          
+                                     :QUdBBvsrrrrirrrrrrrr7rrrrr7rrrrrrrrr7rrrrrrrrrrirrrrrrriririrrrrrii:rBE7Pbi:riririrrrLu                         
+                                    iQUugM7iirirrrrrirrrrrrrrrrrrrrririrrrrririririririririiiriririririi:7gX7dPi:rirrriririr75                        
+                               :UYvZR2BL:.:iiiririririririririririririiiriririiiiiiiiiiiiiiiiiririiiiii.7M1rbX::rrrrrrrrrirrrYj                       
+                              UE7rDbSQv.:riiiririiiririiirriiiiiiiiriiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii:7M1vPEv:rirrrirrrrrrrirj.                      
+                             1qiiPD52. rjirrriiiiiiiiiiiirr:iiiiiiiiiii:i:i:i:iii:i:i:i:iirriiiiiii:i:.IBYZBuviirrrrrrrrrrririvi                      
+                            iqriKMsi :1q::.::riiiiiiiii:i7:i:i:iiiiiii:i:L:::i:i:i:::i:i::..:iir:i:i:i.7BISBj7:iirirrrrrirrriir1                      
+                            b7i1Bi .UEB::   .:.:i:i:i:i:Li::iii:i:::i:i::ur.::::::::::i: .  :i:ir:::::::BP1B2r:iiirirrririririi1:                     
+                           .Krrq: sgUQv.:. .::.:ii:i::::U::i:::ii. ::.:::57::::::::::::i:iii:i:irr:::::.QRvBqL:iiririiiriririiiLL                     
+                           vurU.rKBd2g.:iiiii:i:i::::::iI.::::::::i::::::Pj::::::.:i..::::::::::rr:::::.MQ7BgL:iiiiiriiiiiiiriii5                     
+                           X7u:sBB2BQi.::::i:i::::::::.7q.:::::::::::::.:uXi.:::::iq::::::::::::iL:::ii:dB7QRU:i:iiiiiiririiiiiiS.                    
+                          .S71XvvBsBS ::::::::iii::.::.rq.:::::::::::::.riUj..r7v7ibd:iir::::::::77.:ir:KBYZQui:i:iiiiriiiiiiii:5:                    
+                          :1jD7::BKB..:::::::rrrirEL.:.7K..::::::::::::.viigi.::.. rQi ..:::::::.iJ:.ir:JBJdgs::iiiiiiiiiiiiiiiiYL                    
+                          v2Piii:EBL.::::::::::..:KJ::.sg.:::::::::::::.Ji:LS.:.:..:LP..:::::::::.u:.ivivBKIQvi:i:iiiiiiiiiirii:rU                    
+                          Iq7rr7ivBr.:::::::::::.7U....jK:.:::::::::::..jri 5i::.:.riJS..::::::::.rr.ivrrBguB2:::i:i:iiiiiiiiiiiiK                    
+                         .Pvr7rrri2:.::::::::::.:Ig...r7u7.ir.::::::::.:Iri :J:.:..77:U1..:::::::::v::vriKBLBd::i:i:i:iiiiiiiiii:S.                   
+                         rSrrvr7rv7.:::::::::::.:Rv:..srrX.iY.::::::.:::2r:  ui..:.vri.Us..:.:::::.ri:7vrvv7rKr.ir:i:i:iii:i:iii:I:                   
+                         rSr7vrrvL.::::::::::::.5Kii..Jii5i.5:..:::::.:rXr.  i2...:vr:  Us..:.::::::r.7s7vJL72Y.r7::i:iii:i:i:i::sv                   
+                         Lur7Yir2:.Y.:::::::::..Eir7.:ur.rI.vY..:::::..L2i    q:..:7r:   YJ:::.:::.ir:i17JYsvU5.:s:::i:i:i:i:i:i:Y2                   
+                         L1r7vij7 XJ.:::::::::.Lj:i7.:1i  uiiL7.:::::..LK:    v:..rr7.    :Yivr.....r::uJYJYJsd::sr:::iii:i:::i::rU                   
+                         vJr7vvj Jd7.::::::::.:S:r..::v:   7rsrr::::.:.rU.    .i.:77r       r7Ju:..r:r:1JJsjLsgi:Y7::i:::::i:i:i:rY                   
+                         iJiL7u.UY27.::::::::.v7:.  ..i     .J7.r:::::.:J.    :1qDQQZ2qMgv:  .7157:rSvjP1j5I17g7:vv:::i:i:::i::::ii.                  
+                         :v7LJ:UY:2Y.::::::i..v.JdEqPg5.     .j. ::v7i::sv   .2MMqv5BPKDgMMBQ::irsvrv7iEP2i:buPU.7vi:::::::::::i:i.:                  
+                         :Lr2vs7rijv.::::::r.i7BB177PXMQI     .        .:7  .::.   bj:iiiir7Pq...ii.::idv   :DqS.rsr::::i:::i:i:ii..                  
+                         :7YILirrr7Y.:::::.r.JQB   qvii7ubv                 :r:::.rEi77v7v77   :..::...I...  vdE.rvr:::::::::::::7...                 
+                         :jUvirr7irJ:.::::.iYUBi. 2Irr77sr:                 .:iii.IJLvYvYLv:7:U:..i::..Puv1:  KM:iY7:::::::::::::i. :                 
+                         7vsrrr7rriJi:.:::.r2   ::SJ7vvs7. .:                     1Y.::::::ii:j:.:::..:grr.   iQ:ivv:::::::::::::r. :                 
+                         7YsrrrrrrrrJIi.:.:Yg     uJvr7rrivvu                     .  ........:L:..i::.iKr    .KRi:L7i::::::::::::ir i                 
+                        .vsYrrrrrrrivv1:..:1BL     : ......:r                      .:.......r.i:.:i::.rE7v. .Zqgr:vLi:::::::::::::L .:                
+                        :i57rrrrrrriLrr1:.iU2Bi     .:.....r.                       .::::..i: u...i::.vq:  :RM rU:vLr:::::::::::::j  i                
+                       ..i5rr7rrrrrr77:LU::PrLB.    ...:.:.:                         ..:i:.. .j:.:i:..Sv  JBD  iq:7ur:::::::::::::v. i                
+                       r rIirrrrrrrrririrvuK7:IQ  .   ....                      ....... .... i57.:i:..DrrgBJ   .D:7sr:::::::::::::7: ..               
+                      .i vvrrrrrrrrrrrir:vKIrr:QI  .....                         ........... Yrr.:i:.:DEQd:     Zirur:::::::::::::rr  i               
+                      r  s7rrr7rrrririri:sIrrrr7Q: .......                        . ......  r. 7.:i..:Ki.       XvrJ7:::::::::::::iL  i               
+                     :i .2irrrr7rrrrrrii:1J:rrrisD. .....                          . . .  .:.  7.i::.7.         r2i17i:::::::::::::s  :.              
+                     7  vviirrrrrrrrriri:sI:rr7ri5M                                           rr:i.:ir          :Xijvi:::::::::::::vi  :              
+                    ::  Uririririrrrirvi:v5vi7rr7r:b.             i7                       .r71i:::7s.           br17i:::::::::::::77  i              
+                    7  :uiiiririririi7Yi:rUjvr7r7U  YJ:           .:.                   .i1u: 7::i:v:            I7uY::::::::::::::is  :.             
+                   i:  Y7iiiiririiii:Lv::rLviY7vrQ.  .7u7:                           .rY7:   rJir. i             2sjLi::::::::::::::J  .:             
+                   7   1riririiiiii:isv:i7 q 7P1JR7     :7us7:.                  .irvi.     .Ur:  :              JIYsi::::::::::::::s.  r             
+                  i:  :uiririririii:iUr:rv :: :.:KP         .r7L7ri:...:.::::r71Dr                               r5Jvi::::::::::::::7r  :.            
+                  v   77iiiiiiriiii:7Ur.ji  .     :.                ruUBRXK5K5Kr7ii                              .Sjj:::::::::::::::r7  :.            
+                 ::   Lriiiriririr::75::U.                         .i:  .:::ir:::::vji                            JIsi:::::::::::::::v  .i            
+                 r   .viririiiiiiii:L2iij                      .i7r7.   .::.      .P7:7r.                         J5ui:::::::::::::::L   i            
+                .r   iriiiiiiiirii:iuU:7r                    7vrv:r  .KX...::     .M..:iirYr.                     rPsi:::::::::::::::v.  i            
+                i.   7iiiiiiiiiiii:i2JiL.                  :J:.:i :.r2RMSLJPRr    R7    .s..:.                    :du::::::::::::::::r.  :.           
+                r.  :viiiiiiiiii:i:r2jrs                  .r .:r. is:.jv::JMY7v. iK     r.  ...:                   Dui.::::::::::::::i:  :.           
+                7   sii:i:iiiii:i::iSvs7                 .i   Y: r7   ::.:Ur:    .     v.  ....:r                  PU:::::::::::::::::v  .:           
+               .i  .L::i:i:i:i:i:i:r572i                .i   ii       i..iqi          .:   . ...u.                 21:::::::::::::::::v  .:           
+               ::  rr:::i:i:i:i::::rX7S.               .r   :i        PYrEE           :         uv                 j5:::::::::::::::::7.  :           
+               i.  1:::::::::i:i::.7IYJ               .:   rv        rvqqQ:           :         7r                 U2:::::::::::::::::ir  :           
+               i. :v:::::::::::::::75J7              :7.i. 5        L::7US            :         v:                 jU.::::::::::::::::i7  i           
+               r  vi::::::::::::::.75v:             rBqQQPU        Ji:iJqY            .      .  jr                 Jj::::::::::::::::::Y  :           
+               i  j:::::::::::::::.7b::             BBBBBBi       r7:.ijS:.           i...:.:7v7L:                 vs.:::::::::::::::::v. :           
+               i .7:::::::::::::::.sK :            BBBQBQg       .s:::iU1:.          .77rvLJvuU1v:                 s7::::::::::::::::::r: .           
+               ..:r:::::::::::::::.jJ i           BBZMQQB        Lr::.7UX..          7gSEbEPdPPXE:                 Ur::::::::::::::::::i7..           
+               .ir::::::::::::::::.I. :          BR1ugBB7       .v::::7K5..          :QPI52S252XBi                 K::::::::::::::::::::Li            
+                7v:::::::::::::::::s .:         PQ2juqBB. .:.   .::::.rP2..          .QXKdgIIUIIB.                 q:::::::::::::::::::.7i            
+                :v.:::::::::::::::.L :.         BSU1IBB       ..ir:...rZL..          PQBRUrgPU1qM                  q.:::::::::::::::::::7i            
+                rr:::::::::::::::::v :.        PEU1LZ5   .i:::.:PgESi iS:..         i...   .BPUKR                 .K.::::::::::::::::::.7i            
+                7i::::::::::::::::.v i        iQ1uUZB:rKgBBB2:.1bSSPEusv .         :.    ...KB5PP                 iS.:::::::::::::::::::iv            
+                s::::::::::::::::::L.:        D5URBBQMBBBBBB7 vDXII2SqbqSJ:    1BQKi  .   iriZXE2                 Iv.::::::::::::::::::.rv            
+                Y:..::::::::::::::.L.:       iDPBBE5s2UXPQBQ :gXII2IU52SXgBBBBBBBQ7i  ...i:KBS1Rr                 Di.::::::::::::::::..:iY            
+                v:  :.::::::::::::.7i.      :DBBQIjJUJUKgMBJ qd2IU52IUIU52SPBQBBQBZ:r7JJssqgMIXR.                 M.::::::::::::::..i  :iL            
+                7:.:::::::::::::::.Jr      iQPEPJu121IKMRBB::D252I2IU5UI2I1usJjdRBBBBBBBBQZ5JIKP                 7P.:::::::::::::::::::::J            
+                v:::::::::::::::::.s7      Qd2uuU1IU2IdgQQQ UE22525UIUI2I2IU2uu1DQQQQgQgdu21I2E5                 Ps.:::::::::::::::::::.iY            
+                7i::::::::::::::::.Ur     YQIIUI2IU5UIIdgQB:iQ12UIU5UI2I2IUI2I1UqBRQRqj25UUIU5PR                 Q::::::::::::::::::::::rj            
+                ii::::::::::::::::.Ji     Qq5UI2IUI2I1USDMBY Q5U2UIU22IUIU5UIUIuIgBBBPuuUUIUI2ZR                rg.::::::::::::::::::::.v7            
+                :r::::::::::::::::.Y:     gK25UIU52IUI1IqMBQ gq2UI11J2U2252I2I2Iu2dBZU1IU52I2SQv                gY.::::::::::::::::::::.1i            
+                .7:i:::::::::::::::77     QSIU525UI25I52qEQBs5Eu22IbKj11I2IU52I22uuJ115U52I2SPg                .Q.::::i:::::::::::::::::P             
+                 v:ii::::::::::::::i1    .BP2I25II252XXPqdPgEsQuUI1ZBQIu15I5ISI5I52IU5I5I5I55B.                Sj.:::rr::::::::::::::::7U             
+                 .: ............... v     rquuUJujUuuvr::i27XrDPssJ7ugBdUsujuJjsujuJuJujuJuJqj                .I....:7: ...............7              
+*/
